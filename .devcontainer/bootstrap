@@ -22,8 +22,7 @@ cd "${WORKSPACE_DIR}"
 echo "Installing Home Assistant Core in development mode..."
 uv pip install \
   -e . \
-  --config-settings editable_mode=compat \
-  --upgrade
+  --config-settings editable_mode=compat
 
 # Ensure the custom component symlink exists
 echo "Ensuring custom component symlink..."

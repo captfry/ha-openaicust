@@ -9,7 +9,7 @@
         "CONTAINER_WORKSPACE_FOLDER": "/workspaces/ha-openaicust"
     },
     "features": {
-        "ghcr.io/devcontainers/features/github-cli:1": {}
+        "ghcr.io/devcontainers/features/github-cli:1.1.0": {}
     },
     "appPort": ["8123:8123", "5678:5678"],
     "portsAttributes": {
@@ -82,7 +82,7 @@
                 "json.schemas": [
                     {
                         "fileMatch": ["custom_components/*/manifest.json"],
-                        "url": "https://raw.githubusercontent.com/home-assistant/core/master/script/json_schemas/manifest_schema.json"
+                        "url": "https://raw.githubusercontent.com/home-assistant/core/2024.12.5/script/json_schemas/manifest_schema.json"
                     }
                 ]
             }
